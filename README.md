@@ -62,6 +62,30 @@ Style:CSS
 
 
 
+app.component.ts
+
+
+export class AppComponent {
+  title = 'appoinment-app';
+}
+
+
+
+#This is the compoent. It can be bided to the template using {{ }}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
