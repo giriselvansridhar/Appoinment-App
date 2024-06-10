@@ -12,14 +12,20 @@ import { Appointment } from '../models/appointment';
 export class AppointmentListComponent {
 
 
+  newAppointmentTitle:string="";
+  newAppointmentDate:Date=new Date();
+  
 
 
-  appointment: Appointment=
-  {
-    id:1, 
-    title:"Take dog for a walk",
-    date:new Date('2023-07-30')
-  }
+
+
+
+
+
+  appointments: Appointment[]=[]
+
+
+
 
 
 

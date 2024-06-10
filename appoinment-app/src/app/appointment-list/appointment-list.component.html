@@ -1,4 +1,5 @@
-<p>{{appointment.id}}</p>  
-<p>{{appointment.title}}</p>
-<p>{{appointment.date}}</p>
- <!-- This is from the models.ty from the components.ts -->
+<div>
+    <input placeholder="Appointment decription" ([ngModel])="newAppointmentTitle">
+    <input placeholder="Appointment date" ([ngModel])="newAppointmentDate" type="date">
+    <button>Add</button>
+</div>
