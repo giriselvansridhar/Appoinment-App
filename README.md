@@ -88,6 +88,57 @@ selector in the component should be used the root html
 
 
 
+1.9 Into to Typescript
+
+
+i.The extenstion of the file will be : app-component.ts
+
+
+ii.All the properties go inside the @component
+
+iii. export class Appcomponent
+{
+title:string=""
+Variable:<variable_type>=""
+
+items: string[]=['item1','item2']
+}
+
+
+#Method in the typescript
+log(text:string):void
+{
+
+
+
+var message='Message'+text;
+
+
+}
+
+private log(text:string)
+{
+sum(a:number,b:number)
+{
+
+}
+}
+
+
+this. (This is mandatory)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
