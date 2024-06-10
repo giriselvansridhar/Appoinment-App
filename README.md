@@ -76,7 +76,12 @@ export class AppComponent {
 
 
 
-change2
+1.8. Generate a component
+
+ng  g component appoinment-list
+
+
+selector in the component should be used the root html
 
 
 
