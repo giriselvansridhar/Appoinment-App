@@ -80,8 +80,13 @@ export class AppComponent {
 
 ng  g component appoinment-list
 
+in Appmodules.ts in root directory 
+
 
 selector in the component should be used the root html
+
+
+
 
 
 
