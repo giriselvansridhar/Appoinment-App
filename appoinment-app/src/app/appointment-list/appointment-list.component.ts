@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppointmentListComponent {
 
-  appointment:string="Take Dog to walk",
-  faf
+  appointment:string="Take Dog to walk"  
 
 
 
