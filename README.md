@@ -127,6 +127,57 @@ sum(a:number,b:number)
 
 this. (This is mandatory)
 
+1.10: .ts
+
+
+variable inside a class is property.
+
+.ts properties will be used in the .html using the {{}}
+
+1.11. Creating a interface.
+
+
+ng generate interface models/appointment
+
+
+1.Create a interface
+2.Import into the models.ts
+3.Use any variable to the interface.
+
+Interface array
+
+appoinments: interfaceVariable[]=[]
+
+
+1.12 Two way binding
+
+1.create the html tags
+2.Create a new varibles in components to the inputs
+3.Import Forms modules
+4.[(ngModule)] to the allthe variables
+
+
+1.13. 
+
+[(ngModule)]
+(click)
+
+when click the click is pressed. The function Addappoinmnet is initialized 
+
+
+1. if loop
+2. add them to a new variable
+3. Push that to the appoinmnet array
+4. make the input variable emty again
+   
+
+
+
+
+
+
+
+
 
 
 
@@ -171,17 +222,5 @@ Clean cmd:cls
 check angular verion: ng - version
  ng new (projectname)
 ng serve
-
-
-
-
-
-
-
-
-
-
-
-#Change
 
 
