@@ -1,5 +1,9 @@
 Angular 6 Days Course
 
+
+![image](https://github.com/giriselvansridhar/Appoinment-App/assets/131362593/7eb58798-8c23-40a9-b360-e436ddbcd98a)
+
+
 Day 1:
 
 1.1.Structure of the angular project, SPAs Application, needs npm and angular
