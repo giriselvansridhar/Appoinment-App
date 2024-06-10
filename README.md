@@ -198,6 +198,41 @@ Stroring the dats in local storage
 
 
 
+Intilizing the data:
+
+1.Import OnInit
+2. In the header of the export class
+
+export class AppoinmentListComponent Implements OnIninit
+{ngOnInit(): void {
+  let savedAppoinments=localStorage.getItem("appointments")
+  this.appointments=savedAppoinments ? JSON.parse(savedAppoinments):[]
+
+  Comment: when it doesnot have lists give a empty list
+  
+}
+
+}
+
+
+
+
+1.16: Adding Boootstrap
+
+npm i bootstrap@5.3.3 
+
+In style.css in the app
+
+@import "~bootstrap/dist/css/bootstrap.min.css"
+
+
+
+
+
+
+
+
+
    
 
 
