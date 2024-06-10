@@ -11,7 +11,8 @@
 
 
 <ul>
-    <li *ngFor="let appointment of  appointments">
+    <li *ngFor="let appointment of  appointments;index as i ">
+        <button (click)="deleteAppointment(i)">Delete</button>
         {{appointment.title}} {{appointment.date | date:'dd.MM.yyyy'}}
     </li>
 </ul>
