@@ -169,6 +169,18 @@ when click the click is pressed. The function Addappoinmnet is initialized
 2. add them to a new variable
 3. Push that to the appoinmnet array
 4. make the input variable emty again
+
+
+1.14.
+
+displaying
+
+1.make a list in html
+2.use *ngFor='' in the html
+3."let i of <array>"
+4.{{i.<array elements>}}
+5.{{i.date | date: 'dd.MM.yyyy'}}
+
    
 
 
