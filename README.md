@@ -190,6 +190,12 @@ displaying
 4.splice the array with the index
 
 
+1.15. 
+Stroring the dats in local storage
+
+1.localStorage.setItem("appointments", JSON.strinify(this.apooinments)) in the add delete 
+
+
 
 
    
