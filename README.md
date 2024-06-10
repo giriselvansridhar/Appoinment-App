@@ -181,6 +181,17 @@ displaying
 4.{{i.<array elements>}}
 5.{{i.date | date: 'dd.MM.yyyy'}}
 
+
+
+1.15 Removing the list:
+1.create a funcrion]
+2.in loop take the index
+3.pass the index into to the function
+4.splice the array with the index
+
+
+
+
    
 
 
